@@ -10,8 +10,8 @@ using namespace std;
 int main(void)
 {
 	float K = 1;
-	float T = 1;
-	float T_s = 1;
+	float T = 2;
+	float T_s = 0.1;
 	
 	int i = 0;
 	int N = 10;
@@ -22,7 +22,7 @@ int main(void)
 	cout << pt1 * 1 << endl;
 	
 	for(i = 0; i < N; ++i) {
-		cout << pt1 * 0 << endl;
+		cout << pt1 * 1 << endl;
 	}
 	
 	return 0;
