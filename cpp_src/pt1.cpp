@@ -3,8 +3,8 @@
 
 
 PT1::PT1(const float &K,
-		 const float &T,
-		 const float &T_s)
+	 const float &T,
+	 const float &T_s)
 {
 	a_0 = (T_s - T) / K;
 	b_1 = T_s * K / T;
@@ -12,9 +12,9 @@ PT1::PT1(const float &K,
 }
 
 PT1::PT1(const float &K,
-		 const float &T,
-		 const float &T_s,
-		 const float &w_1_initial)
+	 const float &T,
+	 const float &T_s,
+	 const float &w_1_initial)
 {
 	a_0 = (T_s - T) / K;
 	b_1 = T_s * K / T;
