@@ -22,10 +22,10 @@ PT1::PT1(const float &K,
 }
 
 PT1::PT1(const float &a_0,
-		 const float &b_1) :
-		 a_0(a_0),
-		 b_1(b_1),
-		 w_1(0)
+	 const float &b_1) :
+	 a_0(a_0),
+	 b_1(b_1),
+	 w_1(0)
 {
 	
 }	
