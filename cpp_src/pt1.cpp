@@ -1,7 +1,6 @@
 #include "pt1.h"
 
 
-
 PT1::PT1(const float &K,
 	 const float &T,
 	 const float &T_s)
